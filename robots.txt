@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dydrkrtks7-cmd.github.io/bp-footsam-dongdaemun/sitemap.xml

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="favBg-동대" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b71c1c"/>
+      <stop offset="100%" stop-color="#880e4f"/>
+    </linearGradient>
+    <filter id="favShadow">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="url(#favBg-동대)"/>
+  <rect x="1.5" y="1.5" width="29" height="29" rx="6.5" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.25"/>
+  <path d="M 24.5 4.5 L 25.5 7 L 28 8 L 25.5 9 L 24.5 11.5 L 23.5 9 L 21 8 L 23.5 7 Z" fill="#ffd600"/>
+  <text x="16" y="22" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#ffffff" filter="url(#favShadow)" letter-spacing="-0.5">동대</text>
+</svg>
