@@ -1,15 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
   <defs>
-    <linearGradient id="favBg-동대" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#b71c1c"/>
-      <stop offset="100%" stop-color="#880e4f"/>
+    <!-- Gold Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE082"/>
+      <stop offset="30%" stop-color="#FFB300"/>
+      <stop offset="70%" stop-color="#FFA000"/>
+      <stop offset="100%" stop-color="#B78103"/>
     </linearGradient>
-    <filter id="favShadow">
-      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#000000" flood-opacity="0.3"/>
-    </filter>
+    <!-- Dark Obsidian Background Gradient -->
+    <linearGradient id="darkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D241E"/>
+      <stop offset="100%" stop-color="#140E0A"/>
+    </linearGradient>
   </defs>
-  <rect width="32" height="32" rx="8" fill="url(#favBg-동대)"/>
-  <rect x="1.5" y="1.5" width="29" height="29" rx="6.5" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.25"/>
-  <path d="M 24.5 4.5 L 25.5 7 L 28 8 L 25.5 9 L 24.5 11.5 L 23.5 9 L 21 8 L 23.5 7 Z" fill="#ffd600"/>
-  <text x="16" y="22" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#ffffff" filter="url(#favShadow)" letter-spacing="-0.5">동대</text>
+  
+  <!-- Background Circle with Gold Border -->
+  <circle cx="16" cy="16" r="15" fill="url(#darkBg)"/>
+  <circle cx="16" cy="16" r="14" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" opacity="0.8"/>
+  
+  <!-- Premium Lotus Spa Emblem (Golden) -->
+  <g transform="translate(16, 14.5) scale(0.7)">
+    <!-- Center Petal -->
+    <path d="M 0,-12 C -3,-5 -3,8 0,14 C 3,8 3,-5 0,-12 Z" fill="url(#goldGrad)"/>
+    <!-- Left Petal -->
+    <path d="M 0,-3 C -8,-2 -11,6 -3,11 C -6,6 -5,1 0,-3 Z" fill="url(#goldGrad)" opacity="0.95"/>
+    <!-- Right Petal -->
+    <path d="M 0,-3 C 8,-2 11,6 3,11 C 6,6 5,1 0,-3 Z" fill="url(#goldGrad)" opacity="0.95"/>
+    <!-- Bottom Base Leaf support -->
+    <path d="M -8,11 C 0,16 0,16 8,11 C 4,14 -4,14 -8,11 Z" fill="url(#goldGrad)"/>
+  </g>
+  
+  <!-- Brand Text Badge: "FS" (Foot Ssaem) -->
+  <text x="16" y="27" text-anchor="middle" font-family="'Cinzel', 'Playfair Display', 'Didot', 'Georgia', serif" font-size="6.5" font-weight="900" fill="url(#goldGrad)" letter-spacing="1">FS</text>
 </svg>
