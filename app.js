@@ -11,14 +11,14 @@ const translations = {
     // Hero Section
     hero_tagline: "도시의 속도를 늦추는 곳",
     hero_title: "온전한 휴식을 위한<br>도심 속 오아시스",
-    hero_desc: "을지로 한복판에서 마주하는 아늑한 웰니스 스파. 전통적인 미학과 현대적인 편안함이 어우러진 푸쌤 동대문점에서 지친 몸과 마음의 균형을 되찾으세요.",
+    hero_desc: "을지로 한복판에서 마주하는 아늑한 웰니스 스파. 전통적인 미학과 현대적인 편안함이 어우러진 풋쌤 동대문점에서 지친 몸과 마음의 균형을 되찾으세요.",
     hero_btn_reserve: "지금 예약하기",
     hero_btn_explore: "공간 둘러보기",
 
     // About Section
     about_subtitle: "About Footsam",
     about_title: "을지로 3층에 마련된<span>아늑한 쉼터</span>",
-    about_desc: "푸쌤 동대문점은 바쁜 일상을 살아가는 현대인들을 위한 프리미엄 테라피 공간입니다. 따뜻한 원목 인테리어와 간접 조명이 자아내는 차분한 분위기 속에서, 전문 테라피스트들의 정성 어린 관리가 제공됩니다. 몸의 피로뿐만 아니라 마음에 쌓인 스트레스까지 완전히 해소될 수 있도록 모든 디테일을 디자인했습니다.",
+    about_desc: "풋쌤 동대문점은 바쁜 일상을 살아가는 현대인들을 위한 프리미엄 테라피 공간입니다. 따뜻한 원목 인테리어와 간접 조명이 자아내는 차분한 분위기 속에서, 전문 테라피스트들의 정성 어린 관리가 제공됩니다. 몸의 피로뿐만 아니라 마음에 쌓인 스트레스까지 완전히 해소될 수 있도록 모든 디테일을 디자인했습니다.",
     about_h1: "전문 자격 테라피스트 직접 관리",
     about_h2: "매일 철저한 위생 및 소독 관리",
     about_h3: "아늑한 1인실 및 커플/단체실 완비",
@@ -54,7 +54,7 @@ const translations = {
     
     prog_type_foot: "Focus Therapy",
     prog_name_foot: "시그니처 발 마사지",
-    prog_desc_foot: "발바닥의 반사구를 자극하여 피로를 빠르게 해소하고 신체 전반의 장기 기능을 촉진하는 푸쌤의 시그니처 웰컴 프로그램입니다. (족욕 포함)",
+    prog_desc_foot: "발바닥의 반사구를 자극하여 피로를 빠르게 해소하고 신체 전반의 장기 기능을 촉진하는 풋쌤의 시그니처 웰컴 프로그램입니다. (족욕 포함)",
     prog_time_foot: "40분",
     prog_price_foot: "35,000",
     prog_price_unit: "원",
@@ -89,7 +89,7 @@ const translations = {
     footer_legal: "법적 고지",
     footer_terms: "이용 약관",
     footer_privacy: "개인정보 처리방침",
-    footer_copy: "© 2026 푸쌤 동대문점 (Mr. Foot). All rights reserved."
+    footer_copy: "© 2026 풋쌤 동대문점 (Mr. Foot). All rights reserved."
   },
   en: {
     // Navigation
