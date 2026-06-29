@@ -625,13 +625,22 @@ nav {
 .space-img-container {
   overflow: hidden;
   position: relative;
-  aspect-ratio: 4/3;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  aspect-ratio: 2/3;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
 }
 
 .space-img-container.span-2 {
   grid-column: span 2;
-  aspect-ratio: 16/9;
+  justify-self: center;
+  width: 60%;
+  aspect-ratio: 2/3;
+}
+
+@media (max-width: 768px) {
+  .space-img-container.span-2 {
+    width: 100%;
+  }
 }
 
 .space-img-container img {
