@@ -983,3 +983,14 @@ footer {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
+/* 방문 계획: 기존 색·글꼴을 사용한 실제 열기/닫기 안내 */
+#visit-info { background: var(--bg-secondary); }
+#visit-info .contact-info-panel { max-width: 1040px; margin: 0 auto; }
+.visit-question { border-top: 1px solid var(--bg-tertiary); padding: 1.2rem 0; }
+.visit-question:first-of-type { margin-top: 1.4rem; }
+.visit-question summary { cursor: pointer; font-weight: 500; }
+.visit-question summary::marker { color: var(--accent-dark); }
+.visit-question summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+.visit-question p { margin-top: 0.8rem; max-width: 72ch; color: var(--text-secondary); }
+@media (max-width: 768px) { #visit-info .contact-info-panel { padding: 1.5rem; } }
